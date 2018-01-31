@@ -1,5 +1,6 @@
 <?php
 error_reporting(0);
+
 include 'conection.php';
 ?>
 <!DOCTYPE html>
@@ -8,6 +9,7 @@ include 'conection.php';
 	<title>swass login</title>
 </head>
 <body>
+	<h1>SWAAS LOGIN PAGE</h1>
 	<form action="validation.php" method="POST">	
 		<?php if($_GET['err'] ==1){
 			echo "<span>Authentication failed!</span><br>";
